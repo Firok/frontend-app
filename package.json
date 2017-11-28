@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "main": "index.js",
   "private": true,
+  "homepage": "https://firok.github.io/pikto-frontend-test",
   "dependencies": {
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
@@ -11,6 +12,7 @@
   "scripts": {
     "start": "npm run build",
     "start:server": "node server.js",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "webpack -d && copy src\\index.html public\\index.html && webpack-dev-server --content-base public\\ --inline --hot --port 8000",
     "build:prod": "webpack -p && copy src\\index.html public\\index.html"
