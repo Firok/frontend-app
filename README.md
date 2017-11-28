@@ -17,7 +17,7 @@ This command start the server
 Server started. listening to 8000
 Open [http://localhost:8000](http://localhost:8000) to 
 Get  [http://localhost:8000/images](http://localhost:8000/images) to get images
-POST  [http://localhost:8000/upload](http://localhost:8000/ipload) to upload Image 
+POST  [http://localhost:8000/upload](http://localhost:8000/upload) to upload Image 
 
 ### `npm start`
 This command start the client React App
@@ -31,3 +31,7 @@ You will also see any lint errors in the console.
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](#running-tests) for more information.
+
+### Information for deleting image or text in the canvas
+Click on a text to delete it from the canvas
+Click on an image to delete it from the canvas
