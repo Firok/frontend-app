@@ -12,6 +12,9 @@ change the last two lines in the package.json at "scripts" to
 
 In the project directory, you can run:
 
+### npm install
+To all the dependencies
+
 ### node server.js
 This command start the server
 Server started. listening to 8000
