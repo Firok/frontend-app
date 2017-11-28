@@ -3,11 +3,10 @@ Open the app in any IDE as webStorm, phpStrorm, IntelliJ, Visual Studio Code, et
 
 ### before running the app (if system is not window)
 The development is done on window and in a case your system is not window, 
-change the last two lines in the package.json to
- "scripts": {
+change the last two lines in the package.json at "scripts" to
+
     "build": "webpack -d && copy src/index.html public/index.html && webpack-dev-server --content-base public/ --inline --hot --port 8000",
     "build:prod": "webpack -p && copy src/index.html public/index.html"
-  },
 
 ## Run App
 
