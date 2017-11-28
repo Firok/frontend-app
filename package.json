@@ -11,7 +11,7 @@
   "scripts": {
     "start": "npm run build",
     "start:server": "node server.js",
-    "deploy": "gh-pages -b master -d build",
+    "deploy": "gh-pages -d build",
     "build": "webpack -d && copy src\\index.html public\\index.html && webpack-dev-server --content-base public\\ --inline --hot --port 8000",
     "build:prod": "webpack -p && copy src\\index.html public\\index.html"
   },
